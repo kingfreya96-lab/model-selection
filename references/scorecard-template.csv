@@ -1,0 +1,5 @@
+row_type,model,vendor,hard_exclusions_pass,domain_quality,agentic_reliability,context_effectiveness,success_cost,latency_tail,deploy_fit,weighted_score,evidence_status
+WEIGHTS,-,-,-,0.25,0.25,0.15,0.15,0.10,0.10,-,-
+SCORE,Model-A,Vendor-X,PASS,8,7,8,6,7,9,,-,实测+文献
+SCORE,Model-B,Vendor-Y,PASS,7,8,7,8,8,7,,,实测
+SCORE,Model-C,Vendor-Z,FAIL,-,-,-,-,-,-,,未测(硬排除)
